@@ -1,3 +1,8 @@
-import greeting from './greet';
+import React from 'react'
+import ReactDOM from 'react-dom'
+import '@babel/polyfill'
 
-console.log(greeting);
+import App from './App'
+import './styles.scss'
+
+ReactDOM.render(<App />, document.getElementById('root'))
